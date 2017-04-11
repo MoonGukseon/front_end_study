@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <script
+            src="http://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+        <script src="https://use.fontawesome.com/df9fa0b77f.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+        
+        <link href="style.css" rel="stylesheet"> <!--항상 head 맨 밑줄!-->
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <div class="nav-wrapper">
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li onclick="fnMove('1')"><a>About</a></li>
+                    <li onclick="fnMove('2')"><a>Portfoio</a></li>
+                    <li onclick="fnMove('3')"><a>Like</a></li>
+                    <li onclick="fnMove('4')"><a>Contact</a></li>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                    <li onclick="fnMove('1')"><a>About</a></li>
+                    <li onclick="fnMove('2')"><a>Portfoilo</a></li>
+                    <li onclick="fnMove('3')"><a>Like</a></li>
+                    <li onclick="fnMove('4')"><a>Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+            <h1>GoodSun's Portfolio</h1>
+            <div class="profile">
+                
+            </div>
+        </div>
+        <div class="contents">
+            <div class="info">
+                <span class="infoName">Moon Guk Seon</span></br> <!--contents-wraping-->
+                <span class="infoGs">Management Information Systems</span>
+            </div>
+            <div class="section" id="div1">
+                <div class="container">
+                    <h3>About</h3>
+                    <div class="row">
+                        <div class="grid col s12 m12 l4 xl4">
+                            <div class="sectionImg"></div>
+                        </div>
+                        <div class="grid col s12 m12 l4 xl4">
+                            <div class="sectionImg"></div>
+                        </div>
+                        <div class="grid col s12 m12 l4 xl4">
+                            <div class="sectionImg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="div2">
+                <div class="container">
+                    <h3>Portpolio</h3>
+                    <div class="row">
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="div3">
+                <div class="container">
+                    <h3>Like</h3>
+                    <div class="row">
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="div4">
+                <div class="container">
+                    <h3>Contact</h3>
+                    <div class="row">
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                        <div class="sectionImg col s12 m12 l4 xl4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="custom.js"></script>
+    </body>
+</html>

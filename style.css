@@ -1,0 +1,75 @@
+body{
+    font-family: 'Droid Serif', serif;
+}
+
+.header {
+    background-image: url(img/background-bg.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    background-position: center;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.header nav {
+    position:  absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+
+.header nav ul li a:hover {
+    color: #fff;
+}
+
+.header .profile {
+    background-image: url(img/box7.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: 400%;
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 3px solid white;
+    box-shadow: #aaa 0px 2px 2px;
+}
+
+.contents {
+    padding-top: 110px;
+    text-align: center;
+}
+
+.contents .infoName {
+    font-size: 3em;
+}
+
+.contents .sectionImg {
+    height: 500px;
+}
+
+.contents .grid:nth-child(1) .sectionImg {
+    background-image: url(box11.jpg);
+}
+
+.contents .grid:nth-child(2) .sectionImg {
+    background-image: url(box10.jpg);
+}
+
+.contents .grid:nth-child(3) .sectionImg {
+    background-image: url(box12.jpg);
+}
